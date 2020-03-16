@@ -1,8 +1,19 @@
 from random import random
 n = 0
-a = 0.3
-b = 0.7
-for i in range(20):
+a = 0.9
+b = 0.6
+list = []
+for i in range(200):
 	x = random()
-	if n = 0:
-		if x < a
+	if n == 0:
+		if x < a:
+			n = 0
+		else:
+			n = 1
+	else:
+		if x < b:
+			n = 0
+		else:
+			n = 1
+	list.append(n)
+print(list)
