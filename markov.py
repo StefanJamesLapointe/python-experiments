@@ -2,6 +2,11 @@ from random import random
 n = 0
 a = 0.9
 b = 0.6
+c = (b - 1) / (a + b - 2)
+if random() < c:
+	n = 0
+else:
+	n = 1
 list = []
 for i in range(200):
 	x = random()
