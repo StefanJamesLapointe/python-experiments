@@ -4,7 +4,7 @@ N = int(input("matrix width: "))
 
 #creating the matrix
 matrix = []
-print ("Enter the values of the matrix in rows from left to right, top to bottom.")
+print ("Enter values of matrix in rows from left to right, top to bottom.")
 for i in range(M):
     row = []
     for j in range(N):
