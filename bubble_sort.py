@@ -8,4 +8,5 @@ for i in range(len(list)):
     else:
         list[i] = float(list[i])
 def bubble_sort(list):
-    
+
+#pooooooop
